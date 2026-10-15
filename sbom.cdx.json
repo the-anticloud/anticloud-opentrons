@@ -1,0 +1,481 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "serialNumber": "urn:uuid:3ebb0c0d-49e7-5608-9b0c-9040cb71d7b1",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-06T07:04:16Z",
+  "component": {
+   "type": "application",
+   "name": "OPENTRONS",
+   "version": "83b357604d34",
+   "bom-ref": "pkg:generic/anticloud/OPENTRONS@83b357604d34",
+   "purl": "pkg:generic/anticloud/OPENTRONS@83b357604d34",
+   "licenses": [
+    {
+     "license": {
+      "id": "Apache-2.0"
+     }
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "anticloud:source-commit",
+    "value": "REMOVED_CONTAMINATED_SHA_PENDING_API_RESOLVE"
+   },
+   {
+    "name": "anticloud:source-url",
+    "value": "https://github.com/the-anticloud/OPENMRS_CORE.git"
+   },
+   {
+    "name": "anticloud:tier",
+    "value": "tier-agent"
+   }
+  ]
+ },
+ "components": [
+  {
+   "type": "library",
+   "name": "@opentrons/shared-data",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@opentrons/shared-data@workspace:*",
+   "bom-ref": "npm/@opentrons/shared-data@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@types/lodash",
+   "version": "4.17.24",
+   "purl": "pkg:npm/@types/lodash@4.17.24",
+   "bom-ref": "npm/@types/lodash@4.17.24"
+  },
+  {
+   "type": "library",
+   "name": "axios",
+   "version": "^0.21.1",
+   "purl": "pkg:npm/axios@^0.21.1",
+   "bom-ref": "npm/axios@^0.21.1"
+  },
+  {
+   "type": "library",
+   "name": "lodash",
+   "version": "4.18.1",
+   "purl": "pkg:npm/lodash@4.18.1",
+   "bom-ref": "npm/lodash@4.18.1"
+  },
+  {
+   "type": "library",
+   "name": "opentrons-shared-data",
+   "version": "==0.0.0",
+   "purl": "pkg:pypi/opentrons-shared-data@0.0.0",
+   "bom-ref": "pypi/opentrons-shared-data@==0.0.0"
+  },
+  {
+   "type": "library",
+   "name": "numpy",
+   "version": ">=1.26.4",
+   "purl": "pkg:pypi/numpy@1.26.4",
+   "bom-ref": "pypi/numpy@>=1.26.4"
+  },
+  {
+   "type": "library",
+   "name": "aionotify",
+   "version": "==0.3.1",
+   "purl": "pkg:pypi/aionotify@0.3.1",
+   "bom-ref": "pypi/aionotify@==0.3.1"
+  },
+  {
+   "type": "library",
+   "name": "anyio",
+   "version": ">=4.9.0",
+   "purl": "pkg:pypi/anyio@4.9.0",
+   "bom-ref": "pypi/anyio@>=4.9.0"
+  },
+  {
+   "type": "library",
+   "name": "jsonschema",
+   "version": ">=3.0.1",
+   "purl": "pkg:pypi/jsonschema@3.0.1",
+   "bom-ref": "pypi/jsonschema@>=3.0.1"
+  },
+  {
+   "type": "library",
+   "name": "pydantic",
+   "version": ">=2.0.0",
+   "purl": "pkg:pypi/pydantic@2.0.0",
+   "bom-ref": "pypi/pydantic@>=2.0.0"
+  },
+  {
+   "type": "library",
+   "name": "pydantic-settings",
+   "version": ">=2",
+   "purl": "pkg:pypi/pydantic-settings@2",
+   "bom-ref": "pypi/pydantic-settings@>=2"
+  },
+  {
+   "type": "library",
+   "name": "pyserial",
+   "version": ">=3.5",
+   "purl": "pkg:pypi/pyserial@3.5",
+   "bom-ref": "pypi/pyserial@>=3.5"
+  },
+  {
+   "type": "library",
+   "name": "typing-extensions",
+   "version": ">=4.0.0",
+   "purl": "pkg:pypi/typing-extensions@4.0.0",
+   "bom-ref": "pypi/typing-extensions@>=4.0.0"
+  },
+  {
+   "type": "library",
+   "name": "click",
+   "version": ">=8.0.0",
+   "purl": "pkg:pypi/click@8.0.0",
+   "bom-ref": "pypi/click@>=8.0.0"
+  },
+  {
+   "type": "library",
+   "name": "pyusb",
+   "version": "==1.2.1",
+   "purl": "pkg:pypi/pyusb@1.2.1",
+   "bom-ref": "pypi/pyusb@==1.2.1"
+  },
+  {
+   "type": "library",
+   "name": "importlib-metadata",
+   "version": ">=",
+   "purl": "pkg:pypi/importlib-metadata@",
+   "bom-ref": "pypi/importlib-metadata@>="
+  },
+  {
+   "type": "library",
+   "name": "docker",
+   "version": ">=7.1.0",
+   "purl": "pkg:pypi/docker@7.1.0",
+   "bom-ref": "pypi/docker@>=7.1.0"
+  },
+  {
+   "type": "library",
+   "name": "httpx",
+   "version": ">=0.28.1",
+   "purl": "pkg:pypi/httpx@0.28.1",
+   "bom-ref": "pypi/httpx@>=0.28.1"
+  },
+  {
+   "type": "library",
+   "name": "tomli",
+   "version": ">=2.0.1",
+   "purl": "pkg:pypi/tomli@2.0.1",
+   "bom-ref": "pypi/tomli@>=2.0.1"
+  },
+  {
+   "type": "library",
+   "name": "packaging",
+   "version": ">=24.1",
+   "purl": "pkg:pypi/packaging@24.1",
+   "bom-ref": "pypi/packaging@>=24.1"
+  },
+  {
+   "type": "library",
+   "name": "pytest",
+   "version": ">=8.3.5",
+   "purl": "pkg:pypi/pytest@8.3.5",
+   "bom-ref": "pypi/pytest@>=8.3.5"
+  },
+  {
+   "type": "library",
+   "name": "pytest-html",
+   "version": ">=4.1.1",
+   "purl": "pkg:pypi/pytest-html@4.1.1",
+   "bom-ref": "pypi/pytest-html@>=4.1.1"
+  },
+  {
+   "type": "library",
+   "name": "python-dotenv",
+   "version": ">=1.1.0",
+   "purl": "pkg:pypi/python-dotenv@1.1.0",
+   "bom-ref": "pypi/python-dotenv@>=1.1.0"
+  },
+  {
+   "type": "library",
+   "name": "rich",
+   "version": ">=14.0.0",
+   "purl": "pkg:pypi/rich@14.0.0",
+   "bom-ref": "pypi/rich@>=14.0.0"
+  },
+  {
+   "type": "library",
+   "name": "ruff",
+   "version": ">=0.11.12",
+   "purl": "pkg:pypi/ruff@0.11.12",
+   "bom-ref": "pypi/ruff@>=0.11.12"
+  },
+  {
+   "type": "library",
+   "name": "syrupy",
+   "version": ">=4.9.1",
+   "purl": "pkg:pypi/syrupy@4.9.1",
+   "bom-ref": "pypi/syrupy@>=4.9.1"
+  },
+  {
+   "type": "library",
+   "name": "url",
+   "version": "https://pypi.org/simple",
+   "purl": "pkg:pypi/url@https://pypi.org/simple",
+   "bom-ref": "pypi/url@https://pypi.org/simple"
+  },
+  {
+   "type": "library",
+   "name": "verify_ssl",
+   "version": "true",
+   "purl": "pkg:pypi/verify-ssl@true",
+   "bom-ref": "pypi/verify_ssl@true"
+  },
+  {
+   "type": "library",
+   "name": "name",
+   "version": "pypi",
+   "purl": "pkg:pypi/name@pypi",
+   "bom-ref": "pypi/name@pypi"
+  },
+  {
+   "type": "library",
+   "name": "abr-testing",
+   "version": "{ editable = true, path = ",
+   "purl": "pkg:pypi/abr-testing@{ editable = true, path = ",
+   "bom-ref": "pypi/abr-testing@{ editable = true, path = "
+  },
+  {
+   "type": "library",
+   "name": "google-api-python-client",
+   "version": "*",
+   "purl": "pkg:pypi/google-api-python-client@*",
+   "bom-ref": "pypi/google-api-python-client@*"
+  },
+  {
+   "type": "library",
+   "name": "httplib2",
+   "version": "==0.22.0",
+   "purl": "pkg:pypi/httplib2@0.22.0",
+   "bom-ref": "pypi/httplib2@==0.22.0"
+  },
+  {
+   "type": "library",
+   "name": "types-httplib2",
+   "version": "*",
+   "purl": "pkg:pypi/types-httplib2@*",
+   "bom-ref": "pypi/types-httplib2@*"
+  },
+  {
+   "type": "library",
+   "name": "oauth2client",
+   "version": "==4.1.3",
+   "purl": "pkg:pypi/oauth2client@4.1.3",
+   "bom-ref": "pypi/oauth2client@==4.1.3"
+  },
+  {
+   "type": "library",
+   "name": "gspread",
+   "version": "==6.0.2",
+   "purl": "pkg:pypi/gspread@6.0.2",
+   "bom-ref": "pypi/gspread@==6.0.2"
+  },
+  {
+   "type": "library",
+   "name": "hardware-testing",
+   "version": "{editable = true, path = ",
+   "purl": "pkg:pypi/hardware-testing@{editable = true, path = ",
+   "bom-ref": "pypi/hardware-testing@{editable = true, path = "
+  },
+  {
+   "type": "library",
+   "name": "opentrons-hardware",
+   "version": "{editable = true, path = ",
+   "purl": "pkg:pypi/opentrons-hardware@{editable = true, path = ",
+   "bom-ref": "pypi/opentrons-hardware@{editable = true, path = "
+  },
+  {
+   "type": "library",
+   "name": "opentrons",
+   "version": "{editable = true, path = ",
+   "purl": "pkg:pypi/opentrons@{editable = true, path = ",
+   "bom-ref": "pypi/opentrons@{editable = true, path = "
+  },
+  {
+   "type": "library",
+   "name": "slackclient",
+   "version": "*",
+   "purl": "pkg:pypi/slackclient@*",
+   "bom-ref": "pypi/slackclient@*"
+  },
+  {
+   "type": "library",
+   "name": "slack-sdk",
+   "version": "*",
+   "purl": "pkg:pypi/slack-sdk@*",
+   "bom-ref": "pypi/slack-sdk@*"
+  },
+  {
+   "type": "library",
+   "name": "google-genai",
+   "version": "*",
+   "purl": "pkg:pypi/google-genai@*",
+   "bom-ref": "pypi/google-genai@*"
+  },
+  {
+   "type": "library",
+   "name": "fastapi",
+   "version": "*",
+   "purl": "pkg:pypi/fastapi@*",
+   "bom-ref": "pypi/fastapi@*"
+  },
+  {
+   "type": "library",
+   "name": "uvicorn",
+   "version": "*",
+   "purl": "pkg:pypi/uvicorn@*",
+   "bom-ref": "pypi/uvicorn@*"
+  },
+  {
+   "type": "library",
+   "name": "websocket-client",
+   "version": "*",
+   "purl": "pkg:pypi/websocket-client@*",
+   "bom-ref": "pypi/websocket-client@*"
+  },
+  {
+   "type": "library",
+   "name": "pandas",
+   "version": "*",
+   "purl": "pkg:pypi/pandas@*",
+   "bom-ref": "pypi/pandas@*"
+  },
+  {
+   "type": "library",
+   "name": "pandas-stubs",
+   "version": "*",
+   "purl": "pkg:pypi/pandas-stubs@*",
+   "bom-ref": "pypi/pandas-stubs@*"
+  },
+  {
+   "type": "library",
+   "name": "paramiko",
+   "version": "*",
+   "purl": "pkg:pypi/paramiko@*",
+   "bom-ref": "pypi/paramiko@*"
+  },
+  {
+   "type": "library",
+   "name": "prettier",
+   "version": "*",
+   "purl": "pkg:pypi/prettier@*",
+   "bom-ref": "pypi/prettier@*"
+  },
+  {
+   "type": "library",
+   "name": "build",
+   "version": "*",
+   "purl": "pkg:pypi/build@*",
+   "bom-ref": "pypi/build@*"
+  },
+  {
+   "type": "library",
+   "name": "atomicwrites",
+   "version": "==1.4.1",
+   "purl": "pkg:pypi/atomicwrites@1.4.1",
+   "bom-ref": "pypi/atomicwrites@==1.4.1"
+  },
+  {
+   "type": "library",
+   "name": "colorama",
+   "version": "==0.4.4",
+   "purl": "pkg:pypi/colorama@0.4.4",
+   "bom-ref": "pypi/colorama@==0.4.4"
+  },
+  {
+   "type": "library",
+   "name": "pytest-cov",
+   "version": "==4.1.0",
+   "purl": "pkg:pypi/pytest-cov@4.1.0",
+   "bom-ref": "pypi/pytest-cov@==4.1.0"
+  },
+  {
+   "type": "library",
+   "name": "mypy",
+   "version": "==1.8.0",
+   "purl": "pkg:pypi/mypy@1.8.0",
+   "bom-ref": "pypi/mypy@==1.8.0"
+  },
+  {
+   "type": "library",
+   "name": "black",
+   "version": "==22.3.0",
+   "purl": "pkg:pypi/black@22.3.0",
+   "bom-ref": "pypi/black@==22.3.0"
+  },
+  {
+   "type": "library",
+   "name": "flake8",
+   "version": "~=7.0.0",
+   "purl": "pkg:pypi/flake8@7.0.0",
+   "bom-ref": "pypi/flake8@~=7.0.0"
+  },
+  {
+   "type": "library",
+   "name": "flake8-annotations",
+   "version": "~=3.0.1",
+   "purl": "pkg:pypi/flake8-annotations@3.0.1",
+   "bom-ref": "pypi/flake8-annotations@~=3.0.1"
+  },
+  {
+   "type": "library",
+   "name": "flake8-docstrings",
+   "version": "~=1.7.0",
+   "purl": "pkg:pypi/flake8-docstrings@1.7.0",
+   "bom-ref": "pypi/flake8-docstrings@~=1.7.0"
+  },
+  {
+   "type": "library",
+   "name": "flake8-noqa",
+   "version": "~=1.4.0",
+   "purl": "pkg:pypi/flake8-noqa@1.4.0",
+   "bom-ref": "pypi/flake8-noqa@~=1.4.0"
+  },
+  {
+   "type": "library",
+   "name": "requests",
+   "version": "==2.27.1",
+   "purl": "pkg:pypi/requests@2.27.1",
+   "bom-ref": "pypi/requests@==2.27.1"
+  },
+  {
+   "type": "library",
+   "name": "types-requests",
+   "version": "==2.25.6",
+   "purl": "pkg:pypi/types-requests@2.25.6",
+   "bom-ref": "pypi/types-requests@==2.25.6"
+  },
+  {
+   "type": "library",
+   "name": "google-api-python-client-stubs",
+   "version": "*",
+   "purl": "pkg:pypi/google-api-python-client-stubs@*",
+   "bom-ref": "pypi/google-api-python-client-stubs@*"
+  },
+  {
+   "type": "library",
+   "name": "python_version",
+   "version": "3.12",
+   "purl": "pkg:pypi/python-version@3.12",
+   "bom-ref": "pypi/python_version@3.12"
+  }
+ ],
+ "source": {
+  "git": {
+   "head": null,
+   "url": null,
+   "sha_unverified": true,
+   "note": "contamination removed; resolve via GitHub API before quoting"
+  }
+ }
+}
